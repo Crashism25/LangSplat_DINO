@@ -1,0 +1,34 @@
+# Custom preprocessing scripts (exclude from repo)
+LangSplat/preprocess_dino_multigpu.py
+LangSplat/preprocess_dino_range.py
+
+# Data and model checkpoints
+*.pth
+*.ckpt
+*.npy
+LangSplat/data/
+LangSplat/output/
+LangSplat/ckpts/
+LangSplat/autoencoder/ckpt/
+LangSplat/autoencoder/__pycache__/
+
+# Large files
+*.bin
+*.ply
+*.mkv
+
+# Large images (but allow small ones in results/)
+*.png
+*.jpg
+*.JPG
+!results/**/*.png
+!results/**/*.jpg
+
+# Environment
+.env
+venv/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
