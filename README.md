@@ -24,12 +24,13 @@ SCENE
 ├── images/
 │   ├── image_001.jpg
 │   └── ...
-├── input/
-│   ├── ...
-│   └── ...
 ├── language_features_dino/
 │   ├── ..._f.npy
 │   ├── ..._s.npy
+│   └── ...
+├── output/
+│   ├── point_cloud
+│   ├── cameras.json
 │   └── ...
 └── sparse/
     └── 0/
