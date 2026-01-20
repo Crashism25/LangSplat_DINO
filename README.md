@@ -5,6 +5,7 @@ Put your data in Langsplat/data/"SCENE"
 
 The structure of the dataset should look like this:
 
+```
 SCENE
 ├── dslr/
 │   ├── colmap/
@@ -14,11 +15,11 @@ SCENE
 │   └── resized_images/
 │       ├── image_001.jpg
 │       └── ...
-
-
+```
 
 After running the complete_pipeline notebook, the data will look like this:
 
+```
 SCENE
 ├── images/
 │   ├── image_001.jpg
@@ -35,6 +36,7 @@ SCENE
         ├── cameras.txt
         ├── images.txt
         └── points3D.txt
+```
 
 the autoencoder part from the original Langsplat is modified in order to get 2048 dimensions of dino, the training stores checkpoints in autoencoder dir and test.py generates 3d features in data/SCENE 
 
