@@ -29,7 +29,7 @@ SCENE
 │   ├── ..._s.npy
 │   └── ...
 ├── output/
-│   ├── point_cloud
+│   ├── point_cloud/
 │   ├── cameras.json
 │   └── ...
 └── sparse/
@@ -42,5 +42,7 @@ SCENE
 the autoencoder part from the original Langsplat is modified in order to get 2048 dimensions of dino, the training stores checkpoints in autoencoder dir and test.py generates 3d features in data/SCENE 
 
 
-
 The result of Langsplat training will be in Langsplat/output
+
+
+
